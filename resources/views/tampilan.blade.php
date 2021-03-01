@@ -26,6 +26,11 @@
 <div class="harga">
     <span>Harga : {{$item->harga}}</span>
 </div>
+
+<div class="created">
+    <span>Harga : {{$item->created_at}}</span>
+</div>
+
 </div>
 <br>
 @endforeach
